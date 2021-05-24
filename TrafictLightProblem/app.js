@@ -1,21 +1,29 @@
-//  function printVariable(name)
-//  {
-//     let name1 = name;
-//     console.log(name1);
-//  }
-//  console.log('Hello World');
-//         var a = '10';
-//         var v = "Muntaha";
-//         console.log(v+a);
+ function  printVariable()
+ {
+   
+   
+
+    let color1 = prompt("What is your favourite color ?");
+    if (color1== "Red")
+    {
+       alert("This is red color");
+    }
+    else if (color1== "yellow")
+    {
+       alert("This is yellow color");
+    }
+   else  if (color1== "blue")
+    {
+       alert("This is blue color");
+    }
+    else{
+       
+       alert(" color not matched");
+
+    }
+  
+ }
+
     
 
-        let name2 = prompt("What is your name ?");
-        if (name2== "Muntaha")
-        {
-           alert("Name is not Equal to ABC");
-        }
-        else{
-           
-           alert("Name  ABC");
-
-        }
+      
